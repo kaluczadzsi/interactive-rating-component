@@ -1,0 +1,79 @@
+@import 'colors.scss';
+@import 'reset.scss';
+@import 'fonts.scss';
+@import 'helper.scss';
+
+body {
+  background-color: $clr-very-dark-blue;
+  font-family: $ff-overpass;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.card {
+  max-width: 25rem;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.8rem;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, $clr-dark-blue, rgb(48, 59, 71));
+
+  &__logo {
+    margin-bottom: 0.5rem;
+  }
+
+  &__heading {
+    color: $clr-white;
+  }
+
+  &__text {
+    color: $clr-light-grey;
+    opacity: 0.8;
+    line-height: 1.5;
+  }
+
+  &__list {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+
+    &-item {
+      text-align: center;
+      color: $clr-light-grey;
+      background-color: $clr-dark-blue;
+      cursor: pointer;
+      transition: background 0.4s;
+
+      &:hover {
+        background-color: $clr-orange;
+        color: $clr-white;
+      }
+    }
+  }
+
+  &__button {
+    background-color: $clr-orange;
+    color: $clr-white;
+    border: none;
+    padding: 1rem;
+    border-radius: 50px;
+    transition: background 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background-color: $clr-white;
+      color: $clr-orange;
+    }
+  }
+}

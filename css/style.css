@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.round-grey-border {
+  padding: 1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 54%);
+  color: ca;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+ul li.active {
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.card {
+  max-width: 25rem;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.8rem;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, hsl(213, 19%, 18%), rgb(48, 59, 71));
+}
+.card__logo {
+  margin-bottom: 0.5rem;
+}
+.card__heading {
+  color: hsl(0, 0%, 100%);
+}
+.card__text {
+  color: hsl(217, 12%, 63%);
+  opacity: 0.8;
+  line-height: 1.5;
+}
+.card__list {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+}
+.card__list-item {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 18%);
+  cursor: pointer;
+  transition: background 0.4s;
+}
+.card__list-item:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.card__button {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  transition: background 0.4s;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.card__button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}/*# sourceMappingURL=style.css.map */
