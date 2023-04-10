@@ -92,7 +92,7 @@ body {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
   border: none;
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 50px;
   transition: background 0.4s;
   cursor: pointer;
