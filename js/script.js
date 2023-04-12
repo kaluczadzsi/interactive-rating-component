@@ -5,7 +5,6 @@ const thankYouContainer = document.querySelector('.thank-you');
 const ratings = document.querySelector('ul');
 const buttonSubmit = document.querySelector('.card__button');
 const ratingField = document.querySelector('.selected');
-let submitted = false;
 let ratingValue = 0;
 
 // prettier-ignore
