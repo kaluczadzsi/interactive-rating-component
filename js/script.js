@@ -1,4 +1,4 @@
-/* 'use strict';
+'use strict';
 
 const ratings = document.querySelector('ul');
 const buttonSubmit = document.querySelector('.card__button');
@@ -18,5 +18,4 @@ ratings.addEventListener('click', (e) => {
   }
 });
 
-// buttonSubmit.addEventListener('click', () => {});
- */
+buttonSubmit.addEventListener('click', () => {});

@@ -58,7 +58,7 @@ body {
 }
 
 .card {
-  max-width: 25rem;
+  max-width: 32rem;
   flex-direction: column;
   gap: 1rem;
   padding: 2rem;
@@ -113,6 +113,8 @@ body {
 }
 
 .thank-you {
+  gap: 2rem;
+  padding: 3rem 2rem;
   text-align: center;
 }
 .thank-you .selected {
@@ -125,4 +127,10 @@ body {
   justify-content: center;
   color: hsl(25, 97%, 53%);
   background-color: hsl(213, 19%, 18%);
+  font-size: 1.2rem;
+}
+.thank-you img {
+  flex: 0 0 160px;
+  display: block;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
