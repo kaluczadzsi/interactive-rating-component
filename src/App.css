@@ -26,7 +26,7 @@ body {
   max-width: 25rem;
   height: 27rem;
   padding: 2rem;
-  background: #1a222d;
+  background: linear-gradient(#1a222d, #1a222d5c);
   border-radius: 2rem;
 }
 
