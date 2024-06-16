@@ -8,7 +8,7 @@ const ThankYou = ({ rating }: ThankYouProps) => {
       <h1>Thank You!</h1>
       <p>
         We appreciate you taking the time to give rating. If you ever need more
-        support, don't hesitate to get in touch !
+        support, don't hesitate to get in touch!
       </p>
     </div>
   );
