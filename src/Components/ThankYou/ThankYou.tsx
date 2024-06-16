@@ -3,10 +3,7 @@ import { ThankYouProps } from "./types";
 const ThankYou = ({ rating }: ThankYouProps) => {
   return (
     <div className="thank-you">
-      <img
-        src="public/assets/illustration-thank-you.svg"
-        alt="thank you image"
-      />
+      <img src="/images/illustration-thank-you.svg" alt="thank you image" />
       <p>You selected {rating} out of 5</p>
       <h1>Thank You!</h1>
       <p>
