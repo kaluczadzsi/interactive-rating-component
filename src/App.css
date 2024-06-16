@@ -86,7 +86,7 @@ button[type="submit"] {
   background-color: hsl(25, 97%, 53%);
   border-radius: 100px;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-weight: 700;
   font-size: 15px;
 }
