@@ -1,5 +1,3 @@
-# Interactive Rating Component solution
-
 ## Used technologies:
 
 - React
