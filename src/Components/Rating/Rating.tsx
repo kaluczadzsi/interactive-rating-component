@@ -8,7 +8,7 @@ export const Rating = ({
 }: RatingProps) => {
   return (
     <form onSubmit={handleSubmit}>
-      <img src="src/img/icon-star.svg" alt="star image" />
+      <img src="public/assets/icon-star.svg" alt="star image" />
       <h1>How did we do?</h1>
       <p>
         Please let us know how we did with your support request. All feedback is
